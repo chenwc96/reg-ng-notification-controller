@@ -1,0 +1,25 @@
+<div class="row noti-popup">
+  <ml-caption
+    [fieldId]="'notifications_turn_off_popup_title'"
+    class="col-xs-12 cds-body-hero cds-light"
+  ></ml-caption>
+  <ml-caption
+    [fieldId]="'notifications_turn_off_popup_desc'"
+    class="col-xs-12"
+  ></ml-caption>
+  <div class="col-xs-12 actions">
+    <cds-button
+      class="cta"
+      fullWidth="true"
+      (click)="cancel()"
+      [label]="'notifications_turn_off_cta1'"
+    ></cds-button>
+    <cds-button
+      class="cta"
+      fullWidth="true"
+      [config]="{ style: 'secondary' }"
+      (click)="proceed()"
+      [label]="'notifications_turn_off_cta2'"
+    ></cds-button>
+  </div>
+</div>

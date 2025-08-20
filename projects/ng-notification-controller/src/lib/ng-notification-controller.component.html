@@ -1,0 +1,9 @@
+<cds-switch
+  [formControl]="pushnotificationsControl"
+  [config]="{
+    label: notificationLineItem,
+    value: appNotificationsStatus
+  }"
+  *ngIf="pushNotificationsFeatureEnabled"
+  id="notifications_line_item"
+></cds-switch>
