@@ -11,9 +11,10 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "build:library": "ng build ng-notification-controller",
-    "build": "npm run build:library",
-    "publish:release": "npm run build:library && npm publish dist/ng-notification-controller --access public",
-    "publish": "npm run build:library && npm publish dist/ng-notification-controller --access public"
+    "publish:release": "npm publish dist/reg-push-notification-plugin",
+    "build": "ng build ng-notification-controller",
+    "publish": "npm publish dist/ng-notification-controller/",
+    "serve:ssr:reg-push-notification-plugin": "node dist/reg-push-notification-plugin/server/server.mjs"
   },
   "private": false,
   "dependencies": {
