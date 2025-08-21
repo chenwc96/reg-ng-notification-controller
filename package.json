@@ -2,6 +2,8 @@
   "name": "reg-ng-notification-controller",
   "version": "0.0.0",
   "description": "Push Notification Controller",
+  "main": "dist/ng-notification-controller/index.js",
+  "types": "dist/ng-notification-controller/index.d.ts",
   "publishConfig": {
     "registry": "https://artifactory.ap.manulife.com/artifactory/api/npm/npm/"
   },
