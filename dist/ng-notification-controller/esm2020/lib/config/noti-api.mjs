@@ -1,8 +1,0 @@
-export class NotiApi {
-    constructor() {
-        this.uri = '';
-        this.version = '';
-        this.endpoint = '';
-    }
-}
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoibm90aS1hcGkuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi8uLi8uLi8uLi9wcm9qZWN0cy9uZy1ub3RpZmljYXRpb24tY29udHJvbGxlci9zcmMvbGliL2NvbmZpZy9ub3RpLWFwaS50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFDQSxNQUFNLE9BQU8sT0FBTztJQUlsQjtRQUNFLElBQUksQ0FBQyxHQUFHLEdBQUcsRUFBRSxDQUFDO1FBQ2QsSUFBSSxDQUFDLE9BQU8sR0FBRyxFQUFFLENBQUM7UUFDbEIsSUFBSSxDQUFDLFFBQVEsR0FBRyxFQUFFLENBQUM7SUFDckIsQ0FBQztDQUNGIiwic291cmNlc0NvbnRlbnQiOlsiXG5leHBvcnQgY2xhc3MgTm90aUFwaSB7XG4gIHB1YmxpYyB1cmk6IHN0cmluZztcbiAgcHVibGljIHZlcnNpb246IHN0cmluZztcbiAgcHVibGljIGVuZHBvaW50OiBzdHJpbmc7XG4gIGNvbnN0cnVjdG9yKCkge1xuICAgIHRoaXMudXJpID0gJyc7XG4gICAgdGhpcy52ZXJzaW9uID0gJyc7XG4gICAgdGhpcy5lbmRwb2ludCA9ICcnO1xuICB9XG59XG4iXX0=
